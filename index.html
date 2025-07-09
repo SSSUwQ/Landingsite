@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARASAKA | NETRUNNER PROFILE: RAKHIMOV RADMIR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <img src="Арасака.png" alt="Arasaka Logo">
+            </div>
+            <div class="loading-progress">
+                <div class="progress-bar" id="progressBar"></div>
+                <div class="loading-text">INITIALIZING SECURE CONNECTION...</div>
+                <div class="loading-percent" id="loadingPercent">0%</div>
+            </div>
+            <div class="loading-warning">
+                WARNING: UNAUTHORIZED ACCESS WILL BE REPORTED TO ARASAKA SECURITY
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content" id="mainContent" style="display: none;">
+        <div class="arasaka-logo">
+            <img src="Арасака.png" alt="Arasaka Logo">
+        </div>
+
+        <div class="scanlines"></div>
+        <div class="noise"></div>
+
+        <nav class="cyber-nav">
+            <a href="#bio" class="nav-link">[БИО-ИНТЕРФЕЙС]</a>
+            <a href="#ops" class="nav-link">[ОПЕРАЦИИ]</a>
+            <a href="#neuro" class="nav-link">[НЕЙРО-ПРИВЯЗКИ]</a>
+            <a href="#comms" class="nav-link">[КОММ-КАНАЛЫ]</a>
+        </nav>
+
+        <div class="hero">
+            <div class="hero-text">
+                <h1 class="hero-glitch" data-text="RAKHIMOV RADMIR">RAKHIMOV RADMIR</h1>
+                <p class="hero-subtitle">WEB & MULTIMEDIA DEVELOPER</p>
+                <div class="hero-description">
+                    <p>Здравствуйте, вы попали на мой сайт, на мою территорию. Будьте готовы приготовить свой лед, ведь я его пробью! А так можете наслаждаться моим сайтом портфолио, тут вы можете узнать все обо мне.</p>
+                </div>
+                <div class="personal-info">
+                    <div class="info-item">
+                        <span class="neon-red">19 лет</span>
+                        <span>Возраст</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="neon-red">Специалист</span>
+                        <span>Веб-разработка</span>
+                    </div>
+                </div>
+                <div class="rating">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="rating-text">УРОВЕНЬ УГРОЗЫ: <span class="neon-red">КРАСНЫЙ</span></span>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="photo-gallery">
+                    <div class="photo-item active">
+                        <img src="Радмир.png" alt="Фото 1">
+                    </div>
+                    <div class="photo-item">
+                        <img src="радмир2.jpg" alt="Фото 2">
+                    </div>
+                    <div class="photo-item">
+                        <img src="Радмир3.jpg" alt="Фото 3">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number neon-red">87%</div>
+                <div class="stat-label">УСПЕШНЫХ ВЗЛОМОВ</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number neon-red">0+</div>
+                <div class="stat-label">ЛЕТ ОПЫТА</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number neon-red">24/7</div>
+                <div class="stat-label">ДОСТУПНОСТЬ</div>
+            </div>
+        </div>
+
+        <div class="skills">
+            <h2 class="section-title"><span class="neon-red">>></span> СПЕЦИАЛИЗАЦИЯ</h2>
+            <div class="skill-grid">
+                <div class="skill-card">
+                    <h3>КОРПОРАТИВНЫЕ СЕТИ</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>ОБХОД ЗАЩИТЫ</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>ИИ-ПРОТИВОСТОЯНИЕ</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="ops" class="section">
+            <h2 class="section-title"><span class="neon-red">>></span> ОПЕРАЦИИ // PORTFOLIO_CASE_FILES</h2>
+            <div class="cyber-carousel">
+                <div class="carousel-container" id="carousel">
+                    <div class="carousel-slide">
+                        <div class="project-image">
+                            <img src="Пермь.jpg" alt="Project Perm Cite">
+                        </div>
+                        <h3>PROJECT: PERM_CITE</h3>
+                        <p>Создание веб-сайта для Творческого центра Античность</p>
+                        <div class="tech-used"> <a href="https://sssuwq.github.io/PermProject/"> Перейти </a></div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="project-image">
+                            <img src="проект2.jpg" alt="ProjectTetris">
+                        </div>
+                        <h3>PROJECT: TETRIS</h3>
+                        <p>Разработка веб-сайта с функционирующей игрой Тетрис</p>
+                        <div class="tech-used"><a href="https://sssuwq.github.io/VIldan/"> Перейти </a></div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="project-image">
+                            <img src="проект3.jpg" alt="Project AI Sentinel">
+                        </div>
+                        <h3>PROJECT: KOTIKI</h3>
+                        <p>Верстка сайта по собвстевенному макету</p>
+                        <div class="tech-used"><a href="https://sssuwq.github.io/VIldan/"> Перейти </a></div>
+                    </div>
+                </div>
+                <button class="carousel-btn prev" id="prevBtn">◄</button>
+                <button class="carousel-btn next" id="nextBtn">►</button>
+                <div class="carousel-indicators" id="carouselIndicators"></div>
+            </div>
+        </div>
+        <div id="neuro" class="section">
+            <h2 class="section-title"><span class="neon-red">>></span> НЕЙРО-ПРИВЯЗКИ // NEURAL_HOBBY_MATRIX</h2>
+            <div class="hobby-grid">
+                <div class="hobby-card" data-hobby="TARKOV">
+                    <h3>TACTICAL_SIMULATIONS</h3>
+                    <p>ЧВК: B.E.A.R<br>Жетонов: 1000<br>Тактические навыки: на высоте</p>
+                </div>
+                <div class="hobby-card" data-hobby="basketball">
+                    <h3>PHYSICAL_MAINTENANCE</h3>
+                    <p>Уличный баскетбол<br>Кибернетическая гимнастика<br>Рефлексы: 92%</p>
+                </div>
+                <div class="hobby-card" data-hobby="dnd">
+                    <h3>FANTASY_PROTOCOLS</h3>
+                    <p>Dungeons & Dragons<br>Мастер кампаний<br>Создание миров</p>
+                </div>
+                <div class="hobby-card" data-hobby="coding">
+                    <h3>NETRUNNER SKILLS</h3>
+                    <p>Изучение программирование<br>IT-технологии<br></p>
+                </div>
+            </div>
+            <div class="hobby-details" id="hobbyDetails" style="display: none;">
+                <div class="hobby-details-content" id="hobbyDetailsContent"></div>
+                <button class="close-details" id="closeDetails">CLOSE DETAILS</button>
+            </div>
+        </div>
+
+        <div id="comms" class="section">
+            <h2 class="section-title"><span class="neon-red">>></span> КОММ-КАНАЛЫ // SECURE_CONNECTION_PROTOCOLS</h2>
+            <div class="comms-grid">
+                <a href="t.me/bruhmoments7" class="comm-link tg">
+                    <div class="comm-icon tg"></div>
+                    <span>TELEGRAM: @SSUWU1</span>
+                </a>
+                <a href="#" class="comm-link discord">
+                    <div class="comm-icon discord"></div>
+                    <span>DISCORD: biblia</span>
+                </a>
+                <a href="https://steamcommunity.com/profiles/76561199011259354/" class="comm-link steam">
+                    <div class="comm-icon steam"></div>
+                    <span>STEAM: joker_xaxa67</span>
+                </a>
+            </div>
+            <div class="contact-form">
+    <form id="contactForm" action="send.php" method="POST" enctype="multipart/form-data">
+        <div class="form-group">
+            <input type="text" name="name" placeholder="Введите свое имя" required>
+        </div>
+        <div class="form-group">
+            <input type="email" name="email" placeholder="Введите свой email" required>
+        </div>
+        <div class="form-group">
+            <textarea name="text" placeholder="Сообщение" required></textarea>
+        </div>
+        <button type="submit" class="send-button">ОТПРАВИТЬ</button>
+    </form>
+    <div id="formResponse"></div>
+</div>
+            <div class="comms-warning">
+                <p>ВНИМАНИЕ: Все коммуникации мониторятся Arasaka Counter-Intelligence</p>
+            </div>
+        </div>
+
+        <footer>
+            <p class="footer-text">ARASAKA PERSONNEL DATABASE // ACCESS LEVEL: CONFIDENTIAL</p>
+            <p class="footer-warning">© 2025 Рахимов Радмир. Все права защищены.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
